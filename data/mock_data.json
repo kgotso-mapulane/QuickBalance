@@ -1,0 +1,55 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST001",
+      "name": "Alice Johnson",
+      "account_number": "1234567890",
+      "account_type": "Current Account",
+      "balance": 3874.66,
+      "opening_balance": 500.00,
+      "transactions": [
+        { "date": "2026-08-30", "time": "08:00", "description": "Salary Credit",        "type": "credit", "amount": 3500.00 },
+        { "date": "2026-08-28", "time": "14:32", "description": "Grocery Store",        "type": "debit",  "amount": 85.40  },
+        { "date": "2026-08-25", "time": "09:15", "description": "Netflix Subscription", "type": "debit",  "amount": 15.99  },
+        { "date": "2026-08-22", "time": "11:45", "description": "Transfer from Bob",    "type": "credit", "amount": 200.00 },
+        { "date": "2026-08-20", "time": "16:20", "description": "Electricity Bill",     "type": "debit",  "amount": 78.35  },
+        { "date": "2026-08-18", "time": "10:05", "description": "ATM Withdrawal",       "type": "debit",  "amount": 100.00 },
+        { "date": "2026-08-15", "time": "19:48", "description": "Online Shopping",      "type": "debit",  "amount": 45.60  }
+      ]
+    },
+    {
+      "customer_id": "CUST002",
+      "name": "Bob Smith",
+      "account_number": "0987654321",
+      "account_type": "Savings Account",
+      "balance": 1174.75,
+      "opening_balance": 200.00,
+      "transactions": [
+        { "date": "2026-08-29", "time": "08:00", "description": "Interest Credit",      "type": "credit", "amount": 42.50  },
+        { "date": "2026-08-27", "time": "12:10", "description": "Fuel Station",         "type": "debit",  "amount": 60.00  },
+        { "date": "2026-08-24", "time": "20:15", "description": "Restaurant",           "type": "debit",  "amount": 32.75  },
+        { "date": "2026-08-21", "time": "13:30", "description": "Transfer to Alice",    "type": "debit",  "amount": 200.00 },
+        { "date": "2026-08-19", "time": "15:00", "description": "Freelance Payment",    "type": "credit", "amount": 750.00 },
+        { "date": "2026-08-16", "time": "07:45", "description": "Gym Membership",       "type": "debit",  "amount": 25.00  },
+        { "date": "2026-08-14", "time": "08:00", "description": "Bonus Credit",         "type": "credit", "amount": 500.00 }
+      ]
+    },
+    {
+      "customer_id": "CUST003",
+      "name": "Carol White",
+      "account_number": "1122334455",
+      "account_type": "Current Account",
+      "balance": 1275.20,
+      "opening_balance": 100.00,
+      "transactions": [
+        { "date": "2026-08-31", "time": "08:00", "description": "Salary Credit",        "type": "credit", "amount": 2200.00 },
+        { "date": "2026-08-29", "time": "09:00", "description": "Rent Payment",         "type": "debit",  "amount": 900.00  },
+        { "date": "2026-08-26", "time": "11:20", "description": "Supermarket",          "type": "debit",  "amount": 112.50  },
+        { "date": "2026-08-23", "time": "17:55", "description": "Phone Bill",           "type": "debit",  "amount": 45.00   },
+        { "date": "2026-08-20", "time": "21:10", "description": "Amazon Purchase",      "type": "debit",  "amount": 67.30   },
+        { "date": "2026-08-18", "time": "10:05", "description": "ATM Withdrawal",       "type": "debit",  "amount": 50.00   },
+        { "date": "2026-08-15", "time": "14:30", "description": "Transfer Received",    "type": "credit", "amount": 150.00  }
+      ]
+    }
+  ]
+}

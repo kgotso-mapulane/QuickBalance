@@ -1,0 +1,20 @@
+# Python compiled files - created automatically by Python, not needed in the repo
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folders - local dependencies, not needed in the repo
+venv/
+.venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# Environment variables file - may contain secrets, never push this
+.env
